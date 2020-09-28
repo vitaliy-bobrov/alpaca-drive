@@ -1,0 +1,743 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 4xxx:4049 U1
+U 1 1 5F714135
+P 3900 2000
+F 0 "U1" H 3900 2317 50  0000 C CNN
+F 1 "4049" H 3900 2226 50  0000 C CNN
+F 2 "integrated_circuits:DIP16" H 3900 2000 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 3900 2000 50  0001 C CNN
+	1    3900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4049 U1
+U 2 1 5F715262
+P 5850 2000
+F 0 "U1" H 5850 2317 50  0000 C CNN
+F 1 "4049" H 5850 2226 50  0000 C CNN
+F 2 "integrated_circuits:DIP16" H 5850 2000 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 5850 2000 50  0001 C CNN
+	2    5850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4049 U1
+U 7 1 5F7161ED
+P 4200 6900
+F 0 "U1" H 4430 6946 50  0000 L CNN
+F 1 "4049" H 4430 6855 50  0000 L CNN
+F 2 "integrated_circuits:DIP16" H 4200 6900 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 4200 6900 50  0001 C CNN
+	7    4200 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4049 U1
+U 3 1 5F717784
+P 7500 5500
+F 0 "U1" V 7546 5320 50  0000 R CNN
+F 1 "4049" V 7455 5320 50  0000 R CNN
+F 2 "integrated_circuits:DIP16" H 7500 5500 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 7500 5500 50  0001 C CNN
+	3    7500 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4xxx:4049 U1
+U 4 1 5F71A8A6
+P 8100 5500
+F 0 "U1" V 8146 5320 50  0000 R CNN
+F 1 "4049" V 8055 5320 50  0000 R CNN
+F 2 "integrated_circuits:DIP16" H 8100 5500 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 8100 5500 50  0001 C CNN
+	4    8100 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4xxx:4049 U1
+U 5 1 5F71C42F
+P 8700 5500
+F 0 "U1" V 8746 5320 50  0000 R CNN
+F 1 "4049" V 8655 5320 50  0000 R CNN
+F 2 "integrated_circuits:DIP16" H 8700 5500 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 8700 5500 50  0001 C CNN
+	5    8700 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4xxx:4049 U1
+U 6 1 5F71DB40
+P 9300 5500
+F 0 "U1" V 9346 5320 50  0000 R CNN
+F 1 "4049" V 9255 5320 50  0000 R CNN
+F 2 "integrated_circuits:DIP16" H 9300 5500 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 9300 5500 50  0001 C CNN
+	6    9300 5500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9300 5800 8700 5800
+Connection ~ 8100 5800
+Wire Wire Line
+	8100 5800 7500 5800
+Connection ~ 8700 5800
+Wire Wire Line
+	8700 5800 8400 5800
+$Comp
+L power:GND #PWR06
+U 1 1 5F724152
+P 8400 5800
+F 0 "#PWR06" H 8400 5550 50  0001 C CNN
+F 1 "GND" H 8405 5627 50  0000 C CNN
+F 2 "" H 8400 5800 50  0001 C CNN
+F 3 "" H 8400 5800 50  0001 C CNN
+	1    8400 5800
+	1    0    0    -1  
+$EndComp
+Connection ~ 8400 5800
+Wire Wire Line
+	8400 5800 8100 5800
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5F726A87
+P 1900 2000
+F 0 "H2" V 2137 2003 50  0001 C CNN
+F 1 "IN" V 2045 2003 50  0000 C CNN
+F 2 "supply_pins:PAD1" H 1900 2000 50  0001 C CNN
+F 3 "~" H 1900 2000 50  0001 C CNN
+	1    1900 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5F727C30
+P 1900 2350
+F 0 "H3" V 2137 2353 50  0001 C CNN
+F 1 "GND" V 2045 2353 50  0000 C CNN
+F 2 "supply_pins:PAD1" H 1900 2350 50  0001 C CNN
+F 3 "~" H 1900 2350 50  0001 C CNN
+	1    1900 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 5F728606
+P 9150 2000
+F 0 "H6" V 9387 2003 50  0001 C CNN
+F 1 "OUT" V 9150 2150 50  0000 L CNN
+F 2 "supply_pins:PAD1" H 9150 2000 50  0001 C CNN
+F 3 "~" H 9150 2000 50  0001 C CNN
+	1    9150 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5F7293AE
+P 1350 6400
+F 0 "H1" V 1587 6403 50  0001 C CNN
+F 1 "9V" V 1495 6403 50  0000 C CNN
+F 2 "supply_pins:PAD1" H 1350 6400 50  0001 C CNN
+F 3 "~" H 1350 6400 50  0001 C CNN
+	1    1350 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 5F7296D7
+P 3750 7500
+F 0 "H5" V 3987 7503 50  0001 C CNN
+F 1 "GND" H 3650 7503 50  0000 R CNN
+F 2 "supply_pins:PAD1" H 3750 7500 50  0001 C CNN
+F 3 "~" H 3750 7500 50  0001 C CNN
+	1    3750 7500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5F729F33
+P 1950 7300
+F 0 "H4" V 2187 7303 50  0001 C CNN
+F 1 "LED" H 1850 7303 50  0000 R CNN
+F 2 "supply_pins:PAD1" H 1950 7300 50  0001 C CNN
+F 3 "~" H 1950 7300 50  0001 C CNN
+	1    1950 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5F72A74E
+P 1950 6650
+F 0 "R1" H 2020 6696 50  0000 L CNN
+F 1 "4k7" H 2020 6605 50  0000 L CNN
+F 2 "resistors:0.3_22.B" V 1880 6650 50  0001 C CNN
+F 3 "~" H 1950 6650 50  0001 C CNN
+	1    1950 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5F72AF23
+P 2400 6400
+F 0 "R3" V 2193 6400 50  0000 C CNN
+F 1 "1k" V 2284 6400 50  0000 C CNN
+F 2 "resistors:0.3_22.B" V 2330 6400 50  0001 C CNN
+F 3 "~" H 2400 6400 50  0001 C CNN
+	1    2400 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5F72B8D9
+P 3750 6900
+F 0 "C3" H 3635 6854 50  0000 R CNN
+F 1 "100nF" H 3635 6945 50  0000 R CNN
+F 2 "caps-film:0.2_22.SML" H 3788 6750 50  0001 C CNN
+F 3 "~" H 3750 6900 50  0001 C CNN
+	1    3750 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP1_Small C2
+U 1 1 5F72D4CB
+P 3350 6900
+F 0 "C2" H 3441 6946 50  0000 L CNN
+F 1 "100uF" H 3441 6855 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3350 6900 50  0001 C CNN
+F 3 "~" H 3350 6900 50  0001 C CNN
+	1    3350 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5F72DF41
+P 1950 7000
+F 0 "D1" V 1989 6882 50  0000 R CNN
+F 1 "LED" V 1898 6882 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 1950 7000 50  0001 C CNN
+F 3 "~" H 1950 7000 50  0001 C CNN
+	1    1950 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4007 D2
+U 1 1 5F7300F5
+P 2950 6900
+F 0 "D2" V 2904 6980 50  0000 L CNN
+F 1 "1N4007" V 2995 6980 50  0000 L CNN
+F 2 "diodes:DO41-3" H 2950 6725 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 2950 6900 50  0001 C CNN
+	1    2950 6900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 6400 2950 6400
+Wire Wire Line
+	2950 7400 2950 7050
+Wire Wire Line
+	2950 6750 2950 6400
+Connection ~ 2950 6400
+Wire Wire Line
+	2950 6400 3350 6400
+Wire Wire Line
+	3350 6800 3350 6400
+Connection ~ 3350 6400
+Wire Wire Line
+	3350 6400 3750 6400
+Wire Wire Line
+	3350 7000 3350 7400
+Wire Wire Line
+	2950 7400 3350 7400
+Connection ~ 3350 7400
+Wire Wire Line
+	3350 7400 3750 7400
+Wire Wire Line
+	3750 7050 3750 7400
+Connection ~ 3750 7400
+Wire Wire Line
+	3750 7400 4200 7400
+Wire Wire Line
+	3750 6750 3750 6400
+Connection ~ 3750 6400
+Wire Wire Line
+	3750 6400 4200 6400
+$Comp
+L power:GND #PWR03
+U 1 1 5F7359D7
+P 2950 7400
+F 0 "#PWR03" H 2950 7150 50  0001 C CNN
+F 1 "GND" H 2955 7227 50  0000 C CNN
+F 2 "" H 2950 7400 50  0001 C CNN
+F 3 "" H 2950 7400 50  0001 C CNN
+	1    2950 7400
+	1    0    0    -1  
+$EndComp
+Connection ~ 2950 7400
+$Comp
+L power:GND #PWR01
+U 1 1 5F736DA9
+P 2000 2350
+F 0 "#PWR01" H 2000 2100 50  0001 C CNN
+F 1 "GND" H 2005 2177 50  0000 C CNN
+F 2 "" H 2000 2350 50  0001 C CNN
+F 3 "" H 2000 2350 50  0001 C CNN
+	1    2000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5F737696
+P 2350 2250
+F 0 "R2" H 2420 2296 50  0000 L CNN
+F 1 "1M" H 2420 2205 50  0000 L CNN
+F 2 "resistors:0.3_22.B" V 2280 2250 50  0001 C CNN
+F 3 "~" H 2350 2250 50  0001 C CNN
+	1    2350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5F7381E2
+P 2600 2000
+F 0 "R4" V 2393 2000 50  0000 C CNN
+F 1 "100k" V 2484 2000 50  0000 C CNN
+F 2 "resistors:0.3_22.B" V 2530 2000 50  0001 C CNN
+F 3 "~" H 2600 2000 50  0001 C CNN
+	1    2600 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5F739080
+P 3750 2950
+F 0 "R5" V 3957 2950 50  0000 C CNN
+F 1 "100k" V 3866 2950 50  0000 C CNN
+F 2 "resistors:0.3_22.B" V 3680 2950 50  0001 C CNN
+F 3 "~" H 3750 2950 50  0001 C CNN
+	1    3750 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5F73A5F2
+P 3200 2000
+F 0 "C1" V 2948 2000 50  0000 C CNN
+F 1 "68nF" V 3039 2000 50  0000 C CNN
+F 2 "caps-film:0.2_22.SML" H 3238 1850 50  0001 C CNN
+F 3 "~" H 3200 2000 50  0001 C CNN
+	1    3200 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5F73B566
+P 3850 2500
+F 0 "C4" V 3598 2500 50  0000 C CNN
+F 1 "51pF" V 3689 2500 50  0000 C CNN
+F 2 "caps-film:0.2%22.SML" H 3888 2350 50  0001 C CNN
+F 3 "~" H 3850 2500 50  0001 C CNN
+	1    3850 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5F73BAEB
+P 4650 2000
+F 0 "C5" V 4398 2000 50  0000 C CNN
+F 1 "33nF" V 4489 2000 50  0000 C CNN
+F 2 "caps-film:0.2_22.SML" H 4688 1850 50  0001 C CNN
+F 3 "~" H 4650 2000 50  0001 C CNN
+	1    4650 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5F73D1B2
+P 5850 2500
+F 0 "C6" V 5598 2500 50  0000 C CNN
+F 1 "100pF" V 5689 2500 50  0000 C CNN
+F 2 "caps-film:0.2%22.SML" H 5888 2350 50  0001 C CNN
+F 3 "~" H 5850 2500 50  0001 C CNN
+	1    5850 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5F73D87A
+P 5850 2950
+F 0 "R6" V 6057 2950 50  0000 C CNN
+F 1 "1M" V 5966 2950 50  0000 C CNN
+F 2 "resistors:0.3_22.B" V 5780 2950 50  0001 C CNN
+F 3 "~" H 5850 2950 50  0001 C CNN
+	1    5850 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP1_Small C7
+U 1 1 5F73E48D
+P 6450 2000
+F 0 "C7" V 6678 2000 50  0000 C CNN
+F 1 "10uF" V 6587 2000 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 6450 2000 50  0001 C CNN
+F 3 "~" H 6450 2000 50  0001 C CNN
+	1    6450 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 5F7418E1
+P 7700 2550
+F 0 "C8" H 7585 2504 50  0000 R CNN
+F 1 "15n" H 7585 2595 50  0000 R CNN
+F 2 "caps-film:0.2_22.SML" H 7738 2400 50  0001 C CNN
+F 3 "~" H 7700 2550 50  0001 C CNN
+	1    7700 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5F742249
+P 7250 2100
+F 0 "R7" V 7043 2100 50  0000 C CNN
+F 1 "820R" V 7134 2100 50  0000 C CNN
+F 2 "resistors:0.3_22.B" V 7180 2100 50  0001 C CNN
+F 3 "~" H 7250 2100 50  0001 C CNN
+	1    7250 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT RV1
+U 1 1 5F74342B
+P 4150 2950
+F 0 "RV1" V 4035 2950 50  0000 C CNN
+F 1 "GAIN B1M" V 3944 2950 50  0000 C CNN
+F 2 "potentiometers:16MM_B.MOUNT" H 4150 2950 50  0001 C CNN
+F 3 "~" H 4150 2950 50  0001 C CNN
+	1    4150 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT RV3
+U 1 1 5F745803
+P 8350 2150
+F 0 "RV3" H 8280 2104 50  0000 R CNN
+F 1 "LEVEL A10K" H 8280 2195 50  0000 R CNN
+F 2 "potentiometers:16MM_B.MOUNT" H 8350 2150 50  0001 C CNN
+F 3 "~" H 8350 2150 50  0001 C CNN
+	1    8350 2150
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_POT RV2
+U 1 1 5F74718B
+P 7700 2100
+F 0 "RV2" V 7493 2100 50  0000 C CNN
+F 1 "TONE B10K" V 7584 2100 50  0000 C CNN
+F 2 "potentiometers:16MM_B.MOUNT" H 7700 2100 50  0001 C CNN
+F 3 "~" H 7700 2100 50  0001 C CNN
+	1    7700 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 2000 2350 2000
+Wire Wire Line
+	2750 2000 3050 2000
+Wire Wire Line
+	3350 2000 3550 2000
+Wire Wire Line
+	4200 2000 4300 2000
+Wire Wire Line
+	4800 2000 5550 2000
+Wire Wire Line
+	6150 2000 6350 2000
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 5F74D6BE
+P 6800 2000
+F 0 "SW1" H 6800 2285 50  0000 C CNN
+F 1 "TONE BYPASS" H 6800 2194 50  0000 C CNN
+F 2 "switches:SPDT.LUGS" H 6800 2000 50  0001 C CNN
+F 3 "~" H 6800 2000 50  0001 C CNN
+	1    6800 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2000 6600 2000
+Wire Wire Line
+	7000 1900 8050 1900
+Wire Wire Line
+	8350 1900 8350 2000
+Wire Wire Line
+	7000 2100 7100 2100
+Wire Wire Line
+	7400 2100 7550 2100
+Wire Wire Line
+	7700 2250 7700 2400
+Wire Wire Line
+	3550 2000 3550 2500
+Wire Wire Line
+	3550 2950 3600 2950
+Connection ~ 3550 2000
+Wire Wire Line
+	3550 2000 3600 2000
+Wire Wire Line
+	3900 2950 4000 2950
+Wire Wire Line
+	4300 2950 4300 2800
+Connection ~ 4300 2000
+Wire Wire Line
+	4300 2000 4500 2000
+Wire Wire Line
+	3700 2500 3550 2500
+Connection ~ 3550 2500
+Wire Wire Line
+	3550 2500 3550 2950
+Wire Wire Line
+	4000 2500 4300 2500
+Connection ~ 4300 2500
+Wire Wire Line
+	4300 2500 4300 2000
+Wire Wire Line
+	5550 2000 5550 2500
+Wire Wire Line
+	5550 2950 5700 2950
+Connection ~ 5550 2000
+Wire Wire Line
+	6000 2950 6150 2950
+Wire Wire Line
+	6150 2950 6150 2500
+Connection ~ 6150 2000
+Wire Wire Line
+	6000 2500 6150 2500
+Connection ~ 6150 2500
+Wire Wire Line
+	6150 2500 6150 2000
+Wire Wire Line
+	5700 2500 5550 2500
+Connection ~ 5550 2500
+Wire Wire Line
+	5550 2500 5550 2950
+Wire Wire Line
+	2350 2000 2350 2100
+Connection ~ 2350 2000
+Wire Wire Line
+	2350 2000 2450 2000
+Wire Wire Line
+	4150 2800 4300 2800
+Connection ~ 4300 2800
+Wire Wire Line
+	4300 2800 4300 2500
+Wire Wire Line
+	7850 2100 8050 2100
+Wire Wire Line
+	8050 2100 8050 1900
+Connection ~ 8050 1900
+Wire Wire Line
+	8050 1900 8350 1900
+$Comp
+L power:GND #PWR02
+U 1 1 5F7618FD
+P 2350 2400
+F 0 "#PWR02" H 2350 2150 50  0001 C CNN
+F 1 "GND" H 2355 2227 50  0000 C CNN
+F 2 "" H 2350 2400 50  0001 C CNN
+F 3 "" H 2350 2400 50  0001 C CNN
+	1    2350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5F762FA3
+P 7700 2700
+F 0 "#PWR04" H 7700 2450 50  0001 C CNN
+F 1 "GND" H 7705 2527 50  0000 C CNN
+F 2 "" H 7700 2700 50  0001 C CNN
+F 3 "" H 7700 2700 50  0001 C CNN
+	1    7700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5F764260
+P 8350 2300
+F 0 "#PWR05" H 8350 2050 50  0001 C CNN
+F 1 "GND" H 8355 2127 50  0000 C CNN
+F 2 "" H 8350 2300 50  0001 C CNN
+F 3 "" H 8350 2300 50  0001 C CNN
+	1    8350 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Electromechanical:SWITCH-3PDT S1
+U 1 1 5F77B7BB
+P 2500 4800
+F 0 "S1" H 2450 5081 50  0000 C CNN
+F 1 "SWITCH-3PDT" H 2450 4990 50  0000 C CNN
+F 2 "SparkFun-Electromechanical:3PDT.LUGS.SPF" H 2530 4950 20  0001 C CNN
+F 3 "" H 2500 4800 50  0001 C CNN
+	1    2500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Electromechanical:SWITCH-3PDT S1
+U 2 1 5F77D78D
+P 2500 5300
+F 0 "S1" H 2450 5581 50  0000 C CNN
+F 1 "SWITCH-3PDT" H 2450 5490 50  0000 C CNN
+F 2 "SparkFun-Electromechanical:3PDT.LUGS.SPF" H 2530 5450 20  0001 C CNN
+F 3 "" H 2500 5300 50  0001 C CNN
+	2    2500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Electromechanical:SWITCH-3PDT S1
+U 3 1 5F77ED2E
+P 2500 5750
+F 0 "S1" H 2450 6031 50  0000 C CNN
+F 1 "SWITCH-3PDT" H 2450 5940 50  0000 C CNN
+F 2 "SparkFun-Electromechanical:3PDT.LUGS.SPF" H 2530 5900 20  0001 C CNN
+F 3 "" H 2500 5750 50  0001 C CNN
+	3    2500 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H10
+U 1 1 5F782C3D
+P 2100 4800
+F 0 "H10" V 2054 4950 50  0001 L CNN
+F 1 "JI" V 2100 4950 50  0000 L CNN
+F 2 "supply_pins:PAD1" H 2100 4800 50  0001 C CNN
+F 3 "~" H 2100 4800 50  0001 C CNN
+	1    2100 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 5F783F08
+P 2850 4700
+F 0 "H7" V 2804 4850 50  0001 L CNN
+F 1 "BI" V 2995 4703 50  0000 C CNN
+F 2 "supply_pins:PAD1" H 2850 4700 50  0001 C CNN
+F 3 "~" H 2850 4700 50  0001 C CNN
+	1    2850 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H9
+U 1 1 5F78519D
+P 2750 5650
+F 0 "H9" V 2704 5800 50  0001 L CNN
+F 1 "BO" V 2750 5800 50  0000 L CNN
+F 2 "supply_pins:PAD1" H 2750 5650 50  0001 C CNN
+F 3 "~" H 2750 5650 50  0001 C CNN
+	1    2750 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H8
+U 1 1 5F7863DD
+P 2100 5750
+F 0 "H8" V 2054 5900 50  0001 L CNN
+F 1 "JO" V 2245 5753 50  0000 C CNN
+F 2 "supply_pins:PAD1" H 2100 5750 50  0001 C CNN
+F 3 "~" H 2100 5750 50  0001 C CNN
+	1    2100 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H11
+U 1 1 5F78774F
+P 2750 5200
+F 0 "H11" V 2704 5350 50  0001 L CNN
+F 1 "LED" V 2750 5350 50  0000 L CNN
+F 2 "supply_pins:PAD1" H 2750 5200 50  0001 C CNN
+F 3 "~" H 2750 5200 50  0001 C CNN
+	1    2750 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H12
+U 1 1 5F7888E5
+P 2100 5300
+F 0 "H12" V 2054 5450 50  0001 L CNN
+F 1 "GND" V 2100 5450 50  0000 L CNN
+F 2 "supply_pins:PAD1" H 2100 5300 50  0001 C CNN
+F 3 "~" H 2100 5300 50  0001 C CNN
+	1    2100 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 4700 2700 4700
+Wire Wire Line
+	2700 4700 2700 5400
+Wire Wire Line
+	2700 5400 2600 5400
+Connection ~ 2700 4700
+Wire Wire Line
+	2700 4700 2600 4700
+Wire Wire Line
+	2200 4800 2300 4800
+Wire Wire Line
+	2600 4900 2600 5000
+Wire Wire Line
+	2600 5000 3000 5000
+Wire Wire Line
+	3000 5000 3000 5850
+Wire Wire Line
+	3000 5850 2600 5850
+Wire Wire Line
+	2600 5200 2650 5200
+Wire Wire Line
+	2200 5300 2250 5300
+Wire Wire Line
+	2600 5650 2650 5650
+Wire Wire Line
+	2200 5750 2300 5750
+Wire Wire Line
+	1950 7150 1950 7200
+Wire Wire Line
+	1450 6400 1950 6400
+Wire Wire Line
+	1950 6400 1950 6500
+Connection ~ 1950 6400
+Wire Wire Line
+	1950 6400 2250 6400
+Wire Wire Line
+	1950 6800 1950 6850
+$Comp
+L power:GND2 #PWR?
+U 1 1 5F694F42
+P 2250 5350
+F 0 "#PWR?" H 2250 5100 50  0001 C CNN
+F 1 "GND2" H 2255 5177 50  0000 C CNN
+F 2 "" H 2250 5350 50  0001 C CNN
+F 3 "" H 2250 5350 50  0001 C CNN
+	1    2250 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 5350 2250 5300
+Connection ~ 2250 5300
+Wire Wire Line
+	2250 5300 2300 5300
+Wire Wire Line
+	8650 2000 9050 2000
+Wire Wire Line
+	8650 2000 8650 2150
+Wire Wire Line
+	8650 2150 8500 2150
+$EndSCHEMATC
